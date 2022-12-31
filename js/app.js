@@ -30,7 +30,17 @@ const countdown = () => {
         clearInterval(countdownInterval)
     }
 }
+/*const play = () =>
+{
+  var embed=document.createElement('object');
+  embed.setAttribute('type','audio/wav');
+  embed.setAttribute('data', "./assets/countdown.wav");
+  embed.setAttribute('autostart', true);
+  embed.setAttribute('loop', true);
+  document.getElementsByTagName('body')[0].appendChild(embed);
+}
 
+play()*/
 countdown()
 
 const countdownInterval = setInterval(countdown, 1000)
