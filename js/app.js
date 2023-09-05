@@ -4,6 +4,7 @@ const hoursSpan = document.querySelector('#hours')
 const minutesSpan = document.querySelector('#minutes')
 const secondsSpan = document.querySelector('#seconds')
 const newYear = document.querySelector('#new-year')
+const header = document.querySelector('.header')
 
 const now = new Date()
 
